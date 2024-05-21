@@ -1,0 +1,432 @@
+/* #region Base */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+  background-color: #fafafa;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+address {
+  font-style: normal;
+}
+/* #endregion /Base */
+
+/* #region Components */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* #endregion Components */
+
+/* #region Header */
+.page-header {
+}
+
+.header-nav {
+}
+
+.logo {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+/* #endregion Header */
+
+/* #region Hero */
+.hero {
+  background-color: rgba(17, 17, 17, 0.4);
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-list {
+}
+
+.hero-item {
+}
+
+.hero-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-buy {
+  background-color: #fd9222;
+}
+
+.btn-buy:hover,
+.btn-buy:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.btn-how {
+  background-color: transparent;
+}
+
+.btn-how:hover,
+.btn-how:focus {
+  color: #fd9222;
+}
+
+.hero-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: #fd9222;
+}
+
+.hero-link-icon {
+}
+/* #endregion Hero */
+
+/* #region Benefits */
+.benefits {
+  background-color: #1e1823;
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+.benefits-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+}
+
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion Benefits */
+
+/* #region Ingridients */
+.ingridients {
+}
+
+.ingridients-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.ingridients-list {
+}
+
+.ingridients-item {
+}
+
+.ingridients-item:nth-child(4n + 1) {
+  background-color: #fd9222;
+}
+
+.ingridients-item:nth-child(4n + 3) {
+  background-color: #1e1823;
+}
+
+.ingridients-item-image {
+}
+
+.ingridients-item-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.ingridients-item:nth-child(2n) .ingridients-item-subtitle {
+  color: #111;
+}
+/* #endregion /Ingridients */
+
+/* #region Made */
+.made {
+}
+
+.made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.made-image {
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+
+.made-list {
+}
+
+.made-list-item {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+/* #endregion /Made */
+
+/* #region Products */
+.products {
+}
+
+.products-title {
+}
+
+.products-list {
+}
+
+.products-list-item {
+  background-color: #fff;
+}
+
+.products-item-image {
+}
+
+.products-item-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+
+.products-item-text {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+}
+
+.products-item-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+  background-color: #fafafa;
+}
+/* #endregion /Products */
+
+/* #region Sellers */
+.sellers {
+}
+
+.sellers-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.sellers-list {
+}
+
+.sellers-item {
+  background-color: #fff;
+}
+
+.sellers-image {
+}
+
+.sellers-item-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+/* #endregion /Sellers */
+
+/* #region Reviews */
+.reviews {
+}
+
+.reviews-title {
+}
+
+.reviews-list {
+}
+
+.reviews-item {
+  background-color: #fff;
+}
+
+.reviews-item-image {
+}
+
+.reviews-item-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+
+.reviews-item-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.reviews-button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+  background-color: transparent;
+}
+
+.reviews-button:hover,
+.reviews-button:focus {
+  background-color: #fd9222;
+  color: #fff;
+}
+/* #endregion /Reviews */
+
+/* #region Footer */
+.footer {
+  background-color: #1e1823;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fff;
+}
+
+.footer-socials {
+}
+
+.footer-socials-item {
+}
+
+.footer-socials-link {
+}
+
+.footer-socials-icon {
+}
+
+.footer-address {
+}
+
+.footer-contacts {
+}
+
+.footer-contacts-item {
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-nav {
+}
+
+.footer-nav-list {
+}
+
+.footer-nav-item {
+}
+
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+/* #endregion /Footer */
